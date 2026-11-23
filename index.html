@@ -7,7 +7,7 @@
   <meta name="description" content="Aceites originales, filtros, baterías y aditivos para vehículos livianos y pesados. Cambio de aceite rápido en Maracaibo y San Francisco, Zulia.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,800;1,800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
@@ -27,50 +27,62 @@
 </svg>
 
 <div class="barra-superior">
-  <p>Abierto todos los días de 7:30 am a 6:00 pm</p>
-  <a href="https://www.instagram.com/lubricantesoilub/" target="_blank" rel="noopener">@lubricantesoilub</a>
+  <div>
+    <a href="https://wa.me/584120000000" target="_blank" rel="noopener">WhatsApp 0412-000 0000</a>
+    <span>Abierto todos los días de 7:30 am a 6:00 pm</span>
+  </div>
+  <a href="https://www.instagram.com/lubricantesoilub/" target="_blank" rel="noopener">Instagram @lubricantesoilub</a>
 </div>
 
 <header class="cabecera">
   <a href="#inicio" class="logo" aria-label="OILUB, ir al inicio">
-    <svg width="38" height="38"><use href="#gota"/></svg>
+    <svg width="36" height="36"><use href="#gota"/></svg>
     <span>OILUB</span>
   </a>
   <button class="menu-boton" aria-label="Abrir menú" aria-expanded="false">☰</button>
   <nav class="menu" id="menu">
     <a href="#inicio">Inicio</a>
-    <a href="#productos">Productos</a>
+    <a href="#productos">Productos ▾</a>
     <a href="#marcas">Marcas</a>
-    <a href="#servicios">Servicios</a>
+    <a href="#servicios">Servicios ▾</a>
     <a href="#sedes">Sedes</a>
     <a href="#nosotros">Nosotros</a>
     <a href="#contacto">Contacto</a>
   </nav>
-  <a href="#" class="boton boton-solido" data-demo>Catálogo</a>
+  <div class="herramientas">
+    <button class="icono" data-demo aria-label="Buscar">⌕</button>
+    <button class="icono" data-demo aria-label="Cambiar tema">☾</button>
+    <a href="#" class="boton boton-solido" data-demo>Catálogo</a>
+  </div>
 </header>
 
 <main>
   <section class="heroe" id="inicio">
     <div class="heroe-texto">
-      <h1>Tu motor<br>merece<br><em>aceite original.</em></h1>
-      <p>Lubricantes, filtros, baterías y cambio de aceite para vehículos livianos y pesados. Todo en un solo lugar, en Maracaibo y San Francisco.</p>
+      <p class="sobretitulo">Centro de lubricación · Maracaibo · San Francisco</p>
+      <h1>Aceite original.<br><em>Servicio de verdad.</em></h1>
+      <p class="bajada">Lubricantes, filtros, baterías y cambio de aceite para vehículos livianos y pesados, todo en un solo lugar y con atención rápida.</p>
       <div class="acciones">
         <a href="#" class="boton boton-solido" data-demo>Ver catálogo</a>
         <a href="https://wa.me/584120000000" class="boton boton-borde" target="_blank" rel="noopener">Escribir por WhatsApp</a>
       </div>
+      <ul class="confianza">
+        <li>Abierto todos los días</li>
+        <li>2 sedes en Zulia</li>
+        <li>Livianos y pesados</li>
+        <li>Combos y promociones</li>
+      </ul>
     </div>
-    <div class="heroe-gota" aria-hidden="true">
+    <div class="emblema" aria-hidden="true">
       <svg viewBox="0 0 64 64"><use href="#gota"/></svg>
     </div>
   </section>
 
   <section class="franja" aria-label="Datos de la empresa">
-    <p><strong>2 sedes</strong> en el estado Zulia</p>
-    <p><strong>Livianos y pesados</strong> sin cambiar de lugar</p>
-    <p><strong>Combos</strong> y promociones todo el año</p>
+    <p>Aceites originales</p><p>Atención rápida</p><p>Precios competitivos</p><p>Sedes estratégicas</p>
   </section>
 
-  <section class="seccion" id="productos">
+<section class="seccion" id="productos">
     <h2>Todo lo que necesita tu vehículo</h2>
     <div class="productos">
       <article class="producto"><h3>Lubricantes</h3><p>Aceites para motor, transmisión y maquinaria pesada.</p><a href="#" data-demo>Ver lubricantes</a></article>
